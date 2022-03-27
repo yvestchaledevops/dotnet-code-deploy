@@ -78,4 +78,8 @@ https://www.youtube.com/watch?v=MxFDZucqYXw&t=436s    17:19
 	- Select Amazon EC2 Instances
 	- use previous tag Name and Value: DiceRollDemo
 	- disable load balancing
+	
+	
+	GhostSlinger/dotnet-codedeploy-demo
+	265ae6f42c780787ebea2557bb82e0afa5b60364
 
