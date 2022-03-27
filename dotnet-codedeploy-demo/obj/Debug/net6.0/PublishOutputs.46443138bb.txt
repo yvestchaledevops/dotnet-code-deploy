@@ -1,0 +1,11 @@
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\dotnet-codedeploy-demo.exe
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\appsettings.Development.json
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\appsettings.json
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\dotnet-codedeploy-demo.dll
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\dotnet-codedeploy-demo.deps.json
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\dotnet-codedeploy-demo.runtimeconfig.json
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\dotnet-codedeploy-demo.pdb
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\Microsoft.OpenApi.dll
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\Swashbuckle.AspNetCore.Swagger.dll
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\RmitUniMaster\C#Projects\Practice\dotnet-codedeploy-demo\app\Swashbuckle.AspNetCore.SwaggerUI.dll

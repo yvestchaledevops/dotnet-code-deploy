@@ -1,0 +1,81 @@
+
+
+https://www.youtube.com/watch?v=MxFDZucqYXw&t=436s
+
+
+
+IAM Roles:
+- Created new role ec2-codedeploy-agent
+
+
+
+EC2:
+- Create EC2 Instance
+- Instance called: DiceRollDemo
+
+Instance ID
+i-0e9c89da309dc49cb (DiceRollDemo)
+Open an SSH client.
+Locate your private key file. The key used to launch this instance is productive-dev-demos.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 productive-dev-demos.pem
+Connect to your instance using its Public DNS:
+ ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
+Example:
+ ssh -i "productive-dev-demos.pem" ec2-user@ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=MxFDZucqYXw&t=436s       11:04
+
+To code deploy do we need to run these instances?
+
+- ssh -i "~/.ssh/productive-dev-demos.pem" ec2-user@ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
+- sudo yum update
+- sudo yum install ruby
+- sudo yum install wget
+
+
+!! Install dotnet
+- sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
+- sudo yum install aspnetcore-runtime-6.0
+
+- wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
+
+// make executable
+- chmod +x ./install
+
+// install the agent codedeploy
+- sudo ./install auto
+
+// check codedeploy is running
+- sudo service codedeploy-agent status
+
+
+// After configuring build-scripts files and appspec.yml
+
+https://www.youtube.com/watch?v=MxFDZucqYXw&t=436s    17:19
+
+
+!! Steps for codebuild:
+
+// Build project and create dll in this app directory
+- dotnet publish -o ../app
+ 
+ 
+ 
+ 
+--------------------------------------------------------------
+
+- Then go AWS CodeDeploy
+- Applications
+- create application
+- create deployment group
+	- deployment group name: DiceRollAPI-DG
+- create a new IAM role: PD_AWSCodeDeploy
+	- Select Amazon EC2 Instances
+	- use previous tag Name and Value: DiceRollDemo
+	- disable load balancing
+

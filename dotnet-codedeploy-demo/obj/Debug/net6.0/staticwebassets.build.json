@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SJVxUx+1t86/a3Npm7cBMqz8/OwIzXGMcugrg6meKTY=",
+  "Source": "dotnet-codedeploy-demo",
+  "BasePath": "_content/dotnet-codedeploy-demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
