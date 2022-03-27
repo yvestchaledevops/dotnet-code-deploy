@@ -24,6 +24,9 @@ Connect to your instance using its Public DNS:
 Example:
  ssh -i "productive-dev-demos.pem" ec2-user@ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
  
+!! Important point to your ssh directory that has the key 
+ ssh -i "~/.ssh/productive-dev-demos.pem" ec2-user@ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
+ 
  
  
 --------------------------------------------------------------------------------
@@ -81,5 +84,14 @@ https://www.youtube.com/watch?v=MxFDZucqYXw&t=436s    17:19
 	
 	
 	GhostSlinger/dotnet-codedeploy-demo
-	265ae6f42c780787ebea2557bb82e0afa5b60364
+	commit id: copy from github
 
+
+
+Connect from gitbash:
+ssh -i "~/.ssh/productive-dev-demos.pem" ec2-user@ec2-3-104-118-11.ap-southeast-2.compute.amazonaws.com
+
+
+
+Final checks:
+- sudo service webapi status
