@@ -16,7 +16,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:80",    // 80 is default so its localhost/roll
+      "applicationUrl": "http://localhost:80",   
       "dotnetRunMessages": true
     },
     "IIS Express": {

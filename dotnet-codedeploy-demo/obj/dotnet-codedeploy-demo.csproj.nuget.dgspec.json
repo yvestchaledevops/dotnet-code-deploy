@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RmitUniMaster\\C#Projects\\Practice\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj": {}
+    "C:\\Users\\ADMTEMP\\Documents\\dotnet-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj": {}
   },
   "projects": {
-    "C:\\RmitUniMaster\\C#Projects\\Practice\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj": {
+    "C:\\Users\\ADMTEMP\\Documents\\dotnet-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RmitUniMaster\\C#Projects\\Practice\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj",
+        "projectUniqueName": "C:\\Users\\ADMTEMP\\Documents\\dotnet-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj",
         "projectName": "dotnet-codedeploy-demo",
-        "projectPath": "C:\\RmitUniMaster\\C#Projects\\Practice\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj",
-        "packagesPath": "C:\\Users\\wilbe\\.nuget\\packages\\",
-        "outputPath": "C:\\RmitUniMaster\\C#Projects\\Practice\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\obj\\",
+        "projectPath": "C:\\Users\\ADMTEMP\\Documents\\dotnet-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo.csproj",
+        "packagesPath": "C:\\Users\\ADMTEMP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMTEMP\\Documents\\dotnet-demo\\dotnet-codedeploy-demo\\dotnet-codedeploy-demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wilbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ADMTEMP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,10 +58,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
