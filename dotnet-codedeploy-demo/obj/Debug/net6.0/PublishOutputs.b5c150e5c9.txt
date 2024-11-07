@@ -1,0 +1,11 @@
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\dotnet-codedeploy-demo.exe
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\dotnet-codedeploy-demo.dll
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\dotnet-codedeploy-demo.deps.json
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\dotnet-codedeploy-demo.runtimeconfig.json
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\dotnet-codedeploy-demo.pdb
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\Microsoft.OpenApi.dll
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMTEMP\Documents\dotnet-demo\dotnet-codedeploy-demo\dotnet-codedeploy-demo\bin\Debug\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
